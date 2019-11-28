@@ -1,0 +1,23 @@
+.cell{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+
+}
+td{
+    border: 5px solid  green;
+
+}
+#head-of-page{
+    text-align: center;
+    font-size: 80px;
+    
+}
+#sdk_div{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+#sdk{
+    
+}

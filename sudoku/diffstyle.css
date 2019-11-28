@@ -1,0 +1,39 @@
+#welcomediv{
+    text-align: center;
+}
+#definition{
+    text-align: center;
+}
+#usertitle{
+    color:rgb(0, 109, 128);
+}
+.level{
+    width:80px;
+    height: 30px;
+    margin-left:55px;
+}
+/* .level-of-diff{
+width: 80px;
+height: auto;
+border-bottom-left-radius: 10px ;
+}
+
+#overall-button{
+    position: absolute;
+    left: 550px;
+    top: 250px;
+    
+    
+}
+#difficult-header{
+    position: absolute;
+    left: 600px;
+    top: 200px;
+} 
+ #all{
+    height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+} */
