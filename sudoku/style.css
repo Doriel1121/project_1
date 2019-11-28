@@ -2,11 +2,7 @@
     text-align: center;
     
 }
-#seperate{
-    border-color: grey;
-    border-width: 4px;
-    border-style: solid;
-}
+
 .error{
     color: red;
     font-size: small;
@@ -15,6 +11,11 @@
     position: absolute;
     left: 819px;
     top: 184px;
+    background: black;
+    color: white;
+    border:none;
+    width: 80px;
+    height: 40px;
 }
 #main{
     background: #0264d6; /* Old browsers */
@@ -29,11 +30,18 @@
     width:100%;
     }
 .textarea{
-    position: absolute;
+    /* position: absolute; */
     /* top: 400px; */
     /* left: 2px; */
-    border-radius: 5px;
-    
+    border-radius: 3px;
+    width: 180px;
+    height: 42px;
+    border:none;
+}
+#white-line{
+    width: 1px;
+    height: 150px;
+    position: absolute;
 
 }
 
