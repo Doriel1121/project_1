@@ -1,23 +1,31 @@
 #header{
+    box-sizing: border-box;
     text-align: center;
+    font-size:80px;
+    
     
 }
-
 .error{
+    box-sizing: border-box;
     color: red;
     font-size: small;
+    margin-left:40px;
+    height: 15px;
+   
 }
 #compile{
-    position: absolute;
-    left: 819px;
-    top: 184px;
+    box-sizing: border-box;
+    position: relative;
+   margin-left:50px;
     background: black;
     color: white;
     border:none;
     width: 80px;
     height: 40px;
+   
 }
 #main{
+    box-sizing: border-box;
     background: #0264d6; /* Old browsers */
     background: -moz-radial-gradient(center, ellipse cover,  #0264d6 1%, #1c2b5a 100%); /* FF3.6+ */
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#0264d6), color-stop(100%,#1c2b5a)); /* Chrome,Safari4+ */
@@ -29,16 +37,19 @@
     height:calc(100vh);
     width:100%;
     }
+    .col-2{
+        height: 40px;
+    }
 .textarea{
-    /* position: absolute; */
-    /* top: 400px; */
-    /* left: 2px; */
+    box-sizing: border-box;
     border-radius: 3px;
     width: 180px;
-    height: 42px;
+    height: 35px;
     border:none;
+    
 }
 #white-line{
+    box-sizing: border-box;
     width: 1px;
     height: 150px;
     position: absolute;
