@@ -1,7 +1,9 @@
 #welcomediv{
     box-sizing: border-box;
     text-align: center;
+    font-size: 100px;
 }
+
 #definition{
     box-sizing: border-box;
     text-align: center;
@@ -9,12 +11,32 @@
 #usertitle{
     box-sizing: border-box;
     color:rgb(0, 109, 128);
+    font-style: italic;
 }
 .level{
     box-sizing: border-box;
     width:80px;
     height: 30px;
     margin-left:55px;
+}
+#main{
+    box-sizing: border-box;
+    background: #0264d6; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #0264d6 1%, #1c2b5a 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#0264d6), color-stop(100%,#1c2b5a)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #0264d6 1%,#1c2b5a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0264d6', endColorstr='#1c2b5a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    height:calc(100vh);
+    width:100%;
+    }
+#nameOfPage{
+    font-size: 50px;
+    color: white;
+    letter-spacing: -2px;
+    font-style: oblique;
 }
 /* .level-of-diff{
       box-sizing: border-box;

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8">
+    <meta charset="windows-1252">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
@@ -13,7 +14,7 @@
 
 <body>
     <div id="title"> <p id="head-of-page"> Good luck!</p></div>
-   <div id="sdk_div"> <table id="sdk">
+   <div id="sdk_div"> <table id="table">
         <tr>
             <td><input  id="r0c0" class="cell" type="text" maxlength="1"></td> <!--r- means row & c- means column-->
             <td><input id="r0c1" class="cell" type="text" maxlength="1"></td>
@@ -56,7 +57,8 @@
             <td><input id="r3c5" class="cell" type="text" maxlength="1"></td>
             <td><input id="r3c6" class="cell" type="text" maxlength="1"></td>
             <td><input id="r3c7"  class="cell" type="text" maxlength="1"></td>
-            <td><input  id="r3c8" class="cell" type="text" maxlength="1"></td>
+            <td><input id="r3c8" class="cell" type="text" maxlength="1"></td>
+            <td><input id="r3c9" class="cell" type="text" maxlength="1"></td>
         </tr>
         <tr>
             <td><input  id="r4c0"  class="cell" type="text" maxlength="1"></td>
@@ -119,7 +121,7 @@
          <div class="col-1"></div>
          <button id="pushToPaly" class="col-2" onclick="playGame()">play</button>
          <div class="col-2"></div>
-         <button id="omeMore" class="col-2" onclick="playAgain()">again</button>
+         <button id="oneMore" class="col-2" onclick="playAgain()">again</button>
          <div class="col-2"></div>
          <button id="backword"class="col-2" onclick="goBack()">back</button>
          <div class="col-1"></div>
@@ -132,6 +134,7 @@
 
 
     <script src="gamescript.js"></script>
+
 </body>
 
 </html>
