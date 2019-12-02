@@ -1,5 +1,4 @@
-
-
+debugger;
 function difficultyLevel(mat){
 let difflevel= location.search;
 let randomrunrow;
@@ -17,18 +16,21 @@ if(difflevel=='?playMedium'){
 if(difflevel=='?playHard'){
     numberstoclear=60;
 }
+
 while(numberstoclear>0){
     randomrunrow= Math.floor(Math.random()*9);
     randomruncoll= Math.floor(Math.random()*9);
     // console.log(mat[randomrunrow][randomruncoll]);
-
-    if(mat[randomrunrow][randomruncoll]!=""){
-        mat[randomrunrow][randomruncoll]="";
-        numberstoclear--;
-        
+       
+    if(mat[randomrunrow][randomruncoll]!=''){
+        (mat[randomrunrow][randomruncoll])='';
     }
+        
+        numberstoclear--;
+    }
+// }
     
-}
+
 table= document.getElementById('table');
 let number=0;
 for(r = 0; r < table.rows.length; r++){
@@ -80,6 +82,12 @@ difficultyLevel([[9,1,4,7,8,2,3,6,5],
     [1,4,8,3,2,9,6,5,7],
     [2,5,7,1,6,4,9,8,3],
     [6,3,9,8,7,5,1,2,4]]);
+
+
+
+    function goBack(){
+        location.replace("file:///C:/Users/Teacher/Desktop/Doriel/git/project_1/sudoku/difficulty.html");
+    }
 
 
 
