@@ -1,3 +1,6 @@
+body{
+    background-image: url("http://www.yo-yoo.co.il/rekaim/images/uploads/f9ef48.jpg");
+}
 #header{
     box-sizing: border-box;
     text-align: center;
@@ -8,10 +11,19 @@
     left: 150px;
     top: -10px;
 }
+#loction{
+    margin-left:120px;
+}
 .row{
     position: absolute;
     top: 100px;
     left: 300px;
+}
+#login_user{
+    border: 1px solid black;
+}
+#login_pass{
+    border: 1px solid black;
 }
 .error{
     box-sizing: border-box;
@@ -25,7 +37,8 @@
 #compile{
     box-sizing: border-box;
     position: relative;
-   margin-left:50px;
+   margin-left:245px;
+   margin-top:27px;
     background: black;
     color: white;
     border:none;
@@ -35,11 +48,11 @@
     left: 169px;
    border-radius: 2px;
 }
-#main{
+/* #main{
 }
-    .col-2{
+.col-2{
         /* height: 40px; */
-    }
+    /* } */
 .textarea{
     box-sizing: border-box;
     border-radius: 3px;
@@ -50,12 +63,13 @@
 
     
 }
-#white-line{
-    box-sizing: border-box;
-    width: 1px;
-    height: 150px;
-    position: absolute;
-    left: 150px;
+#black-line{
+    /* box-sizing: border-box; */
+    /* width: 1px; */
+     height: 150px;
+     position: absolute;
+     left:100px; 
+    
 
 }
 .input_icons{

@@ -22,10 +22,9 @@
     top: 200px;
     left: 500px;
 }
-#table{
+/* #table{
     /* box-sizing: border-box;  */
-    
-}
+/* } */ */
 td , tr{
     width: 40px;
     height: 40px;

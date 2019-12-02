@@ -1,5 +1,5 @@
 
-debugger
+
 function difficultyLevel(mat){
 let difflevel= location.search;
 let randomrunrow;
