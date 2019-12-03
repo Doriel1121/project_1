@@ -6,6 +6,7 @@ let randomrunrow;
 let randomruncoll;
 let numberstoclear;
 // var mat = 0;
+let empty;
 
 
 if(difflevel=='?playEasy'){
@@ -23,11 +24,11 @@ while(numberstoclear>0){
     // console.log(mat[randomrunrow][randomruncoll]);
 
     if(mat[randomrunrow][randomruncoll]!=""){
-        mat[randomrunrow][randomruncoll]="";
+        mat[randomrunrow][randomruncoll]='';
         numberstoclear--;
         
     }
-    
+  
 }
 table= document.getElementById('table');
 let number=0;
