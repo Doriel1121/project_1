@@ -1,5 +1,6 @@
 body{
     background-image: url("http://www.yo-yoo.co.il/rekaim/images/uploads/f9ef48.jpg");
+    background-repeat: no-repeat;
 }
 #header{
     box-sizing: border-box;
@@ -48,11 +49,7 @@ body{
     left: 169px;
    border-radius: 2px;
 }
-/* #main{
-}
-.col-2{
-        /* height: 40px; */
-    /* } */
+
 .textarea{
     box-sizing: border-box;
     border-radius: 3px;

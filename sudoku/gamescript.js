@@ -1,4 +1,6 @@
-debugger;
+
+
+//function that delete random numbers from the cells according the level of the game that the user chose.
 function difficultyLevel(mat){
 let difflevel= location.search;
 let randomrunrow;
@@ -8,42 +10,34 @@ let numberstoclear;
 let empty;
 
 
-if(difflevel=='?playEasy'){
+if(difflevel=='?playEasy'){ //if choose easy
     numberstoclear=20;    
 }
-if(difflevel=='?playMedium'){
+if(difflevel=='?playMedium'){ //if choose medium
     numberstoclear=40;    
 }
-if(difflevel=='?playHard'){
+if(difflevel=='?playHard'){ // if choose hard
     numberstoclear=60;
 }
 
 while(numberstoclear>0){
-    randomrunrow= Math.floor(Math.random()*9);
+    randomrunrow= Math.floor(Math.random()*9); // entering random number from 0-9 into a variable.
     randomruncoll= Math.floor(Math.random()*9);
     // console.log(mat[randomrunrow][randomruncoll]);
-<<<<<<< HEAD
 
+// ask if the matrix in certain (using the randon numbers) location is not empty.
     if(mat[randomrunrow][randomruncoll]!=""){
         mat[randomrunrow][randomruncoll]='';
-        numberstoclear--;
-=======
-       
-    if(mat[randomrunrow][randomruncoll]!=''){
-        (mat[randomrunrow][randomruncoll])='';
+        numberstoclear--; //reduce the numbers of cells i need to clear 
     }
->>>>>>> c7c160e0c3fe285ff9b1042c0af8a634ef626201
-        
-        numberstoclear--;
     }
-<<<<<<< HEAD
+
   
-}
-=======
+
+
 // }
     
-
->>>>>>> c7c160e0c3fe285ff9b1042c0af8a634ef626201
+// use the function that entering the numbers into the cells.
 table= document.getElementById('table');
 let number=0;
 for(r = 0; r < table.rows.length; r++){
@@ -52,7 +46,7 @@ for(r = 0; r < table.rows.length; r++){
         
     }
 } 
-} 
+}
 
 
 
@@ -72,7 +66,7 @@ function fullTheSudoku(mat){  // function that insert the numbers of sudoku game
     } 
     console.log(mat);
        
-  difficultyLevel(mat);
+//   difficultyLevel(mat);
 
 }  
 

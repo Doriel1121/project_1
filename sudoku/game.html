@@ -9,12 +9,16 @@
     <meta charset="windows-1252">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/193d2f4dc5.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+
+
     <title>Document</title>
 </head>
 
 <body>
     <div id="title"> <p id="head-of-page"> Good luck!</p></div>
-   <div id="sdk_div"> <table id="table">
+   <div id="sdk_div" class="container"> <table id="table">
         <tr>
             <td><input id="r0c0" class="cell" type="text"  maxlength="1"></td> <!--r- means row & c- means column-->
             <td><input id="r0c1" class="cell" type="text" maxlength="1"></td>
@@ -117,9 +121,10 @@
         </tr>
     </table>
     <br>
-    <div class="row">
+  
+ <!-- buttons that calls to some functions on the js to do validation/ play again/ or return to the last page -->
          <div class="col-1"></div>
-         <button id="validata" class="col-2" onclick="chackBoard()">check</button>
+         <button id="validata" class="col-2" onclick="chackBoard()">check</button> 
          <div class="col-2"></div>
          <button id="oneMore" class="col-2" onclick="playAgain()">again</button>
          <div class="col-2"></div>

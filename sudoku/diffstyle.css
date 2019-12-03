@@ -3,6 +3,10 @@
     box-sizing: border-box;
     text-align: center;
     font-size: 100px;
+    letter-spacing: -6px;
+}
+#welcome{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #definition{
@@ -12,21 +16,49 @@
 #usertitle{
     box-sizing: border-box;
     color:rgb(0, 109, 128);
-    font-style: italic;
+    font-family: sofia;
+    
 }
 .level{
     box-sizing: border-box;
-    width:80px;
-    height: 30px;
+    width:94px;
+    height: 41px;
+    font-size: 17px;
     margin-left:55px;
+    background-color: transparent;
+    color: rgb(37, 92, 143);
+    border-radius: 17px;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-/* #main{
-    } */
+/* #rules{
+    position: absolute;
+    left: 585px;
+    top: 314px;
+    width: 180px;
+    background-color: rgb(30, 22, 44);
+    border-radius: 2px;
+    color: white;
+    border-color: transparent;
+} */
+body{
+    background-image:url(sudoku-background.jpeg) ;
+    background-repeat: no-repeat;
+    }
 #nameOfPage{
     font-size: 50px;
     color: white;
     letter-spacing: -2px;
     font-style: oblique;
+}
+#rulesbutton{
+    position: absolute;
+    left: 603px;
+    width: 150px;
+    top: 287px;
+    background-color: rgb(29, 21, 66);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
