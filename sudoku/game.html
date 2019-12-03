@@ -18,12 +18,12 @@
 
 <body>
     <div id="title"> <p id="head-of-page"> Good luck!</p></div>
-   <div id="sdk_div" class="container"> <table id="table">
-        <tr>
+   <div id="sdk_div" style="overflow-x:auto;" class="container"> <table id="table">
+          <tr>
             <td><input id="r0c0" class="cell" type="text"  maxlength="1"></td> <!--r- means row & c- means column-->
             <td><input id="r0c1" class="cell" type="text" maxlength="1"></td>
             <td><input id="r0c2" class="cell" type="text" maxlength="1"></td>
-            <td><input id="r0c3" class="cell" type="text" maxlength="1"></td>
+            <td><input id="r0c3"  class="cell" type="text" maxlength="1"></td>
             <td><input id="r0c4" class="cell" type="text" maxlength="1"></td>
             <td><input id="r0c5" class="cell" type="text" maxlength="1"></td>
             <td><input id="r0c6" class="cell" type="text" maxlength="1"></td>
@@ -34,7 +34,7 @@
             <td><input id="r1c0"class="cell" type="text" maxlength="1"></td>
             <td><input id="r1c1" class="cell" type="text" maxlength="1"></td>
             <td><input id="r1c2" class="cell" type="text" maxlength="1"></td>
-            <td><input id="r1c3" class="cell" type="text" maxlength="1"></td>
+            <td><input id="r1c3"  class="cell" type="text" maxlength="1"></td>
             <td><input id="r1c4" class="cell" type="text" maxlength="1"></td>
             <td><input id="r1c5" class="cell" type="text" maxlength="1"></td>
             <td><input id="r1c6" class="cell" type="text" maxlength="1"></td>
@@ -45,7 +45,7 @@
             <td><input id="r2c0" class="cell" type="text" maxlength="1"></td>
             <td><input id="r2c1" class="cell" type="text" maxlength="1"></td>
             <td><input id="r2c2" class="cell" type="text" maxlength="1"></td>
-            <td><input id="r2c3" class="cell" type="text" maxlength="1"></td>
+            <td ><input id="r2c3" class="cell" type="text" maxlength="1"></td>
             <td><input id="r2c4" class="cell" type="text" maxlength="1"></td>
             <td><input id="r2c5" class="cell" type="text" maxlength="1"></td>
             <td><input id="r2c6" class="cell" type="text" maxlength="1"></td>
@@ -123,14 +123,15 @@
     <br>
   
  <!-- buttons that calls to some functions on the js to do validation/ play again/ or return to the last page -->
+     
          <div class="col-1"></div>
          <button id="validata" class="col-2" onclick="chackBoard()">check</button> 
-         <div class="col-2"></div>
+         <div class="col-1"></div>
          <button id="oneMore" class="col-2" onclick="playAgain()">again</button>
-         <div class="col-2"></div>
+         <div class="col-1"></div>
          <button id="backword"class="col-2" onclick="goBack()">back</button>
          <div class="col-1"></div>
-
+    
     </div>
 </div>
 
