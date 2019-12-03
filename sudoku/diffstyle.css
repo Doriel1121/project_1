@@ -1,3 +1,4 @@
+
 #welcomediv{
     box-sizing: border-box;
     text-align: center;
@@ -19,8 +20,8 @@
     height: 30px;
     margin-left:55px;
 }
-#main{
-    }
+/* #main{
+    } */
 #nameOfPage{
     font-size: 50px;
     color: white;
