@@ -1,9 +1,8 @@
 body{
     background-image: url("http://www.yo-yoo.co.il/rekaim/images/uploads/f9ef48.jpg");
     background-repeat: no-repeat;
-    width: 100%;
+    width: 150%;
     background-size: contain; 
-    height: 850px;
 }
 #header{
     box-sizing: border-box;
@@ -11,8 +10,8 @@ body{
     font-size:80px;
     line-height: 52px;
     text-align: left;
-    position: absolute;
-    left: 150px;
+    position: flex;
+    margin-left: 35px;
     top: -10px;
 }
 #loction{
@@ -44,8 +43,8 @@ body{
 }
 #compile{
     box-sizing: border-box;
-    position: relative;
-   margin-left:245px;
+    position:flex;
+   left:245px;
    margin-top:27px;
     background: black;
     color: white;
@@ -53,7 +52,7 @@ body{
     width: 80px;
     height: 40px;
     position: flex;
-    left: 169px;
+     left: 120px; 
    border-radius: 2px;
 }
 
@@ -72,7 +71,7 @@ body{
     /* width: 1px; */
      height: 150px;
      position: absolute;
-     left:100px; 
+     /* left:100px;  */
     
 
 }
@@ -85,16 +84,14 @@ body{
     display: table;
   } */
   
-  [class*="col-"] {
+  /* [class*="col-"] {
     float: left;
-    padding: 15px;
-    
-  }
+  } */
   
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
+  /* .col-1 {width: 8.33%;} */
+  /* .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;} */
+  /* .col-4 {width: 33.33%;}
   .col-5 {width: 41.66%;}
   .col-6 {width: 50%;}
   .col-7 {width: 58.33%;}
@@ -102,7 +99,7 @@ body{
   .col-9 {width: 75%;}
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
+  .col-12 {width: 100%;} */
 
   /* Extra small devices (phones, 600px and down) */
 /* @media only screen and (max-width: 600px) { */

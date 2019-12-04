@@ -106,10 +106,11 @@ function checkBoard(mat) {
     console.log(counter);
     
     if (counter == 81) {
-        // window.alert('champ!');
-        document.table.style.backgroundColor='green';
+        //  window.alert('champ!');
+        // document.table.style.backgroundColor='green';
     } else {
-        document.table.style.backgroundColor='red';
+        // window.alert('give anather try');
+        // document.table.style.backgroundColor='red';
     }
 }
 
