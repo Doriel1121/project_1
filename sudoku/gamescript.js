@@ -44,7 +44,7 @@ function fullTheSudoku(mat) { // function that insert the numbers of sudoku game
             document.getElementById(`r${r}c${c}`).value = mat[r][c];
         }
     }
-    difficultyLevel(mat);
+    // difficultyLevel(mat);
 }
 
 //function that delete random numbers from the cells according the level of the game that the user chose.
@@ -65,7 +65,7 @@ function difficultyLevel(mat) {
     if (difflevel == '?playHard') { // if choose hard
         numberstoclear = 60;
     }
-    // debugger
+    //  debugger
     while (numberstoclear > 0) {
         console.log(numberstoclear);
 
@@ -87,12 +87,12 @@ function difficultyLevel(mat) {
 // debugger
 
 function goBack() {
-    location.replace("file:///C:/Users/Teacher/Desktop/Doriel/git/project_1/sudoku/difficulty.html");
+    location.replace("difficulty.html");
     
 }
 // debugger
 
-window.onClick=function checkBoard(mat) {
+function checkBoard(mat) {
     for (r = 0; r < table.rows.length; r++) {
         for (c = 0; c < table.rows[r].cells.length; c++) {
             console.log(mat[r][c]);
@@ -106,9 +106,10 @@ window.onClick=function checkBoard(mat) {
     console.log(counter);
     
     if (counter == 81) {
-        window.alert('champ!');
+        // window.alert('champ!');
+        document.table.style.backgroundColor='green';
     } else {
-        window.alert('Give it another try');
+        document.table.style.backgroundColor='red';
     }
 }
 

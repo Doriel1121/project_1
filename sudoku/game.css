@@ -1,9 +1,9 @@
 body{
     background-image: url(sudoku-background.jpeg);
     background-repeat: no-repeat;
-    width: 100%;
+    /* width: 100%;
     background-size: contain; 
-    height: 850px;
+    height: 100%; */
 }
 .cell{
     /* box-sizing: border-box; */
