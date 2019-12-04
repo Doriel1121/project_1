@@ -1,18 +1,18 @@
+function playEasy() { // open the game at the easy level
 
-    function playEasy(){ // open the game at the easy level
-        
-            location.replace("game.html?playEasy");
-            
-            
-    }
-    function playMedium(){//open the game on the medium level
-        
-        location.replace("game.html?playMedium");
+    location.assign("game.html?playEasy");
 }
-function playHard(){ //open the game on the hard level
-        
-    location.replace("game.html?playHard");
+
+function playMedium() { //open the game on the medium level
+
+    location.assign("game.html?playMedium");
 }
+
+function playHard() { //open the game on the hard level
+
+    location.assign("game.html?playHard");
+}
+win
 
 
 
@@ -22,10 +22,10 @@ function playHard(){ //open the game on the hard level
 //     for(r = 0; r < table.rows.length; r++){
 //         for(c = 0;c < table.rows[r].cells.length; c++){
 //            table.rows[r].cells[c].innerHTML = mat[r][c];
-            
+
 //         }
 //     }
-    
+
 // }
 // fullTheSudoku([[9,1,4,7,8,2,3,6,5],
 //             [3,8,5,4,1,6,7,9,2],

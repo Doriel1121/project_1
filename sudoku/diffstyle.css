@@ -24,7 +24,8 @@
     width:94px;
     height: 41px;
     font-size: 17px;
-    margin-left:55px;
+    position: absolute;
+    left: 63px;
     background-color: transparent;
     color: rgb(37, 92, 143);
     border-radius: 17px;

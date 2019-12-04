@@ -11,13 +11,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/193d2f4dc5.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    
+  });
+});
+</script>
 
     <title>Document</title>
 </head>
 
 <body>
     <div id="title"> <p id="head-of-page"> Good luck!</p></div>
+<<<<<<< HEAD
    <div id="sdk_div" style="overflow-x:auto;" class="container"> <table id="table">
           <tr>
             <td><input id="r0c0" class="cell" type="text"  maxlength="1"></td> <!--r- means row & c- means column-->
@@ -26,6 +34,16 @@
             <td><input id="r0c3"  class="cell" type="text" maxlength="1"></td>
             <td><input id="r0c4" class="cell" type="text" maxlength="1"></td>
             <td><input id="r0c5" class="cell" type="text" maxlength="1"></td>
+=======
+   <div id="sdk_div" class="container"> <table id="table">
+        <tr>
+            <td><input id="r0c0" class="cell" type="text"  maxlength="1" readonly></td> <!--r- means row & c- means column-->
+            <td><input id="r0c1" class="cell" type="text" maxlength="1" readonly></td>
+            <td><input id="r0c2" class="cell" type="text" maxlength="1" readonly></td>
+            <td><input id="r0c3" class="cell" type="text" maxlength="1" readonly></td>
+            <td><input id="r0c4" class="cell" type="text" maxlength="1" readonly></td>
+            <td><input id="r0c5" class="cell" type="text" maxlength="1" readonly></td>
+>>>>>>> c1696d7c349476abc2718e2b17b3d5179b09469c
             <td><input id="r0c6" class="cell" type="text" maxlength="1"></td>
             <td><input id="r0c7" class="cell" type="text" maxlength="1"></td>
             <td><input id="r0c8" class="cell" type="text" maxlength="1"></td>
@@ -87,7 +105,7 @@
             <td><input id="r5c8" class="cell" type="text" maxlength="1"></td>
         </tr>
         <tr>
-            <td><input  id="63c0" class="cell" type="text" maxlength="1"></td>
+            <td><input  id="r6c0" class="cell" type="text" maxlength="1"></td>
             <td><input id="r6c1" class="cell" type="text" maxlength="1"></td>
             <td><input id="r6c2" class="cell" type="text" maxlength="1"></td>
             <td><input id="r6c3" class="cell" type="text" maxlength="1"></td>
@@ -125,8 +143,13 @@
  <!-- buttons that calls to some functions on the js to do validation/ play again/ or return to the last page -->
      
          <div class="col-1"></div>
+<<<<<<< HEAD
          <button id="validata" class="col-2" onclick="chackBoard()">check</button> 
          <div class="col-1"></div>
+=======
+         <button id="validata" class="col-2" onclick="checkBoard()">check</button> 
+         <div class="col-2"></div>
+>>>>>>> c1696d7c349476abc2718e2b17b3d5179b09469c
          <button id="oneMore" class="col-2" onclick="playAgain()">again</button>
          <div class="col-1"></div>
          <button id="backword"class="col-2" onclick="goBack()">back</button>
@@ -140,6 +163,7 @@
 
 
     <script src="gamescript.js"></script>
+    <!-- <script src="game-v2.js"></script> -->
 
 </body>
 
