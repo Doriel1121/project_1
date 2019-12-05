@@ -5,6 +5,18 @@
     text-align: center;
 
 }
+tr:first-child td{
+    border-top-color: black;
+}
+tr:nth-child(3n) td {
+    border-bottom-color: black;
+}
+td:first-child {
+    border-left-color: black;
+}
+td:nth-child(3n){
+    border-right-color: black;
+}
 .col-2{
     position: absolute;
     top: -189px;
@@ -46,10 +58,6 @@ td , tr{
     box-sizing: border-box;
     border: 5px solid  rgb(105, 185, 167); 
 }
-/* table{
-    width: 400px;
-    height: 400px;
-    font-size: x-large;
-    text-align: center;
-    font: bold;
-} */
+input{
+    border: transparent;
+}
