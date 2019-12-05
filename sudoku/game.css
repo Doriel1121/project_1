@@ -11,6 +11,18 @@ body{
     height:40px;
     text-align: center;
 }
+tr:first-child td{
+    border-top-color: black;
+}
+tr:nth-child(3n) td {
+    border-bottom-color: black;
+}
+td:first-child {
+    border-left-color: black;
+}
+td:nth-child(3n){
+    border-right-color: black;
+}
 .col-2{
     position: flex;
     top: -189px;
@@ -63,6 +75,7 @@ body{
     /* box-sizing: border-box; */
     border: 5px groove  rgb(105, 185, 167); 
 }
+<<<<<<< HEAD
 
 
 /* table{
@@ -72,3 +85,8 @@ body{
     text-align: center;
     font: bold;
 } */
+=======
+input{
+    border: transparent;
+}
+>>>>>>> 55120d5318f0a6bf79c5a7e4ae40f5b60b98e0be

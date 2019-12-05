@@ -1,16 +1,5 @@
-fullTheSudoku([
-    [9, 1, 4, 7, 8, 2, 3, 6, 5],
-    [3, 8, 5, 4, 1, 6, 7, 9, 2],
-    [7, 2, 6, 5, 9, 3, 4, 1, 8],
-    [8, 9, 2, 6, 3, 7, 5, 4, 1],
-    [4, 6, 3, 2, 5, 1, 8, 7, 9],
-    [5, 7, 1, 9, 4, 8, 2, 3, 6],
-    [1, 4, 8, 3, 2, 9, 6, 5, 7],
-    [2, 5, 7, 1, 6, 4, 9, 8, 3],
-    [6, 3, 9, 8, 7, 5, 1, 2, 4]
-]);
 
-difficultyLevel([
+let mat = [
     [9, 1, 4, 7, 8, 2, 3, 6, 5],
     [3, 8, 5, 4, 1, 6, 7, 9, 2],
     [7, 2, 6, 5, 9, 3, 4, 1, 8],
@@ -19,26 +8,16 @@ difficultyLevel([
     [5, 7, 1, 9, 4, 8, 2, 3, 6],
     [1, 4, 8, 3, 2, 9, 6, 5, 7],
     [2, 5, 7, 1, 6, 4, 9, 8, 3],
-    [6, 3, 9, 8, 7, 5, 1, 2, 4]
-]);
+    [6, 3, 9, 8, 7, 5, 1, 2, 4]];
 
-let counter=0;
-checkBoard([
-    [9, 1, 4, 7, 8, 2, 3, 6, 5],
-    [3, 8, 5, 4, 1, 6, 7, 9, 2],
-    [7, 2, 6, 5, 9, 3, 4, 1, 8],
-    [8, 9, 2, 6, 3, 7, 5, 4, 1],
-    [4, 6, 3, 2, 5, 1, 8, 7, 9],
-    [5, 7, 1, 9, 4, 8, 2, 3, 6],
-    [1, 4, 8, 3, 2, 9, 6, 5, 7],
-    [2, 5, 7, 1, 6, 4, 9, 8, 3],
-    [6, 3, 9, 8, 7, 5, 1, 2, 4]
-]);
+window.onload = function() {
+
+    fullTheSudoku(mat);
+};
 
 
 function fullTheSudoku(mat) { // function that insert the numbers of sudoku game into each cell of the table
     table = document.getElementById('table');
-    let number = 0;
     for (r = 0; r < table.rows.length; r++) {
         for (c = 0; c < table.rows[r].cells.length; c++) {
             document.getElementById(`r${r}c${c}`).value = mat[r][c];
@@ -67,38 +46,54 @@ function difficultyLevel(mat) {
     }
     //  debugger
     while (numberstoclear > 0) {
-        console.log(numberstoclear);
-
         randomrunrow = Math.floor(Math.random() * 9); // entering random number from 0-9 into a variable.
         randomruncoll = Math.floor(Math.random() * 9);
-        console.log(mat[randomrunrow][randomruncoll]);
         let numToDelete = document.getElementById(`r${randomrunrow}c${randomruncoll}`).value
-        // console.log(numToDelete)
         if (numToDelete != "") {
             document.getElementById(`r${randomrunrow}c${randomruncoll}`).value = "";
             document.getElementById(`r${randomrunrow}c${randomruncoll}`).removeAttribute('readonly');
-
+            numberstoclear--;
         }
-        numberstoclear--;
-
     }
 }
 
 // debugger
 
 function goBack() {
+<<<<<<< HEAD
     location.replace("difficulty.html");
     
 }
 // debugger
 
 function checkBoard(mat) {
+=======
+    location.assign("file:///C:/Users/Teacher/Desktop/Doriel/git/project_1/sudoku/difficulty.html");
+}
+// debugger
+
+function checkBoard(){
+let mat = [
+    [9, 1, 4, 7, 8, 2, 3, 6, 5],
+    [3, 8, 5, 4, 1, 6, 7, 9, 2],
+    [7, 2, 6, 5, 9, 3, 4, 1, 8],
+    [8, 9, 2, 6, 3, 7, 5, 4, 1],
+    [4, 6, 3, 2, 5, 1, 8, 7, 9],
+    [5, 7, 1, 9, 4, 8, 2, 3, 6],
+    [1, 4, 8, 3, 2, 9, 6, 5, 7],
+    [2, 5, 7, 1, 6, 4, 9, 8, 3],
+    [6, 3, 9, 8, 7, 5, 1, 2, 4]];
+    let counter = 0;
+>>>>>>> 55120d5318f0a6bf79c5a7e4ae40f5b60b98e0be
     for (r = 0; r < table.rows.length; r++) {
         for (c = 0; c < table.rows[r].cells.length; c++) {
             console.log(mat[r][c]);
 
             if (document.getElementById(`r${r}c${c}`).value == mat[r][c]) {
+                document.getElementById(`r${r}c${c}`).style.background = 'green';
                 counter++;
+            }else{
+                document.getElementById(`r${r}c${c}`).style.background = 'red';
             }
 
         }
@@ -106,15 +101,26 @@ function checkBoard(mat) {
     console.log(counter);
     
     if (counter == 81) {
+<<<<<<< HEAD
         //  window.alert('champ!');
         // document.table.style.backgroundColor='green';
     } else {
         // window.alert('give anather try');
         // document.table.style.backgroundColor='red';
+=======
+       alert('champ!');
+        // location.assign("answer.html?correct");
+
+        // document.table.
+    } else {
+        alert('Give it another try');
+        // location.assign("answer.html?wrong");
+
+>>>>>>> 55120d5318f0a6bf79c5a7e4ae40f5b60b98e0be
     }
 }
 
-function playAgain(){
-    location.reload();
+function playAgain(){ 
+    location.reload();// reload the page again and by that shufle the numbers.
 
 }
