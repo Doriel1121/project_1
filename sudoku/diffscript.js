@@ -12,7 +12,7 @@ function playHard() { //open the game on the hard level
 
     location.assign("game.html?playHard");
 }
-win
+
 
 
 
