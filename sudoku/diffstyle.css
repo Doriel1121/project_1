@@ -137,7 +137,6 @@ background-color: rgba(0,0,0,0.5) !important;
     }
     #usertitle{
         font-size:35px;
-        
     }
     #nameOfPage{
         float: left;
@@ -149,9 +148,9 @@ background-color: rgba(0,0,0,0.5) !important;
      #push1{
        right: 60px;
      }
-     #push2{
+     /* #push2{
        
-    }
+    } */
     #push3{
       left: 60px;
     }
@@ -162,43 +161,8 @@ background-color: rgba(0,0,0,0.5) !important;
 
   
   
-  /* Medium devices (landscape tablets, 768px and up) */
-  /* @media only screen and (min-width: 768px) {
-    #welacom{
-        float: left;
-    }
-    #nameOfPage{
-        float: left;
-     }
-     #push1{
-        float: left;
-     }
-     #push2{
-        float: left;
-    }
-    #push3{
-        float: left;
-    }
-    #rulesbutton{
-        float: left;
-    }
- } */
+
   
   
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {
-    #welacom{
-        float: left;
-    }
-    #nameOfPage{
-         float: left; 
-     }
-    .button{
-        float: left;
-    }
-    #rulesbutton{
-        float: left;
-    }
- } */
 
    
