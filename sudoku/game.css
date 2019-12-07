@@ -1,45 +1,69 @@
+body{
+    background-image: url(sudoku-background.jpeg);
+    background-repeat: no-repeat;
+    /* width: 100%;
+    background-size: contain; 
+    height: 100%; */
+}
 .cell{
     /* box-sizing: border-box; */
     width: 40px;
-    height: 40px;
+    height:40px;
     text-align: center;
-
 }
 tr:first-child td{
-    border-top-color: black;
+    border-top-color: black ;
+    border-top-width: 5px;
 }
 tr:nth-child(3n) td {
-    border-bottom-color: black;
+    border-bottom-color: black ;
+    border-bottom-width: 5px;
+
 }
 td:first-child {
-    border-left-color: black;
+    border-left-color: black ;
+    border-left-width: 5px;
+
 }
 td:nth-child(3n){
-    border-right-color: black;
+    border-right-color: black ;
+    border-right-width: 5px;
+
 }
 .col-2{
-    position: relative;
-    top: -162px;
-    right: -440px;
-    background-color: rgb(29, 21, 66);
+    position: flex;
+    top: -189px;
+    right: -440px; 
+    background:transparent;
     border-radius: 4px;
     border-color: black;
-    color: white;
-    margin: -4px;
-    width: 50px;
-    height: 40px;
+    color: rgb(17, 56, 51);
+     margin: -4px;
+    height: 40px; 
     font-size: x-large;
     margin-bottom: 15px;
 }
-
- body{
-    background-image: url(sudoku-background.jpeg);
-    background-repeat: no-repeat;
+#validata{
+    background: rgb(29, 21, 66);
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#oneMore{
+    background: rgb(29, 21, 66);
+    color:white;
+    margin-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#backword{
+    background: rgb(29, 21, 66);
+    color:white;
+    margin-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #head-of-page{
     box-sizing: border-box;
     text-align: center;
-    font-size: 80px;
+    font-size: 75px;
     font-family: sofia;
     
 }
@@ -50,14 +74,13 @@ td:nth-child(3n){
     left: 500px;
     
 }
-
-td , tr{
-    width: 40px;
-    height: 40px;
+ td , tr{ 
+     width: 40px;
+    height:40px; 
     font-size: larger;
     text-align: center;
-    box-sizing: border-box;
-    border: 5px solid  rgb(105, 185, 167); 
+    /* box-sizing: border-box; */
+    border: 2px groove  rgb(0, 0, 0); 
 }
 input{
     border: transparent;

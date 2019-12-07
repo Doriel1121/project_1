@@ -3,7 +3,7 @@ function logInIdent(){ // function that check if the user name and the password 
     let password=document.getElementById("login_pass").value;
     
     if(userName =='abcd' && password =='1234'){ // 
-        location.replace("file:///C:/Users/Teacher/Desktop/Doriel/git/project_1/sudoku/difficulty.html")
+        location.assign("difficulty.html");
     }
     if(userName != 'abcd'){// condition for the username
         document.getElementById("error-name").innerHTML="wrong user name";

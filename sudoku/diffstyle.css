@@ -1,4 +1,14 @@
 
+/* #main{
+    height: 100px;
+} */
+body{
+    background-image:url(sudoku-background.jpeg) ;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain; 
+    height: 750px;
+    }
 #welcomediv{
     box-sizing: border-box;
     text-align: center;
@@ -6,12 +16,21 @@
     letter-spacing: -6px;
 }
 #welcome{
+    box-sizing: border-box;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #definition{
+     box-sizing: border-box;
+}
+#nameOfPage{
     box-sizing: border-box;
-    text-align: center;
+    font-size: 50px;
+    color: black;
+    letter-spacing: -2px;
+    font-style: oblique;
+    /* box-sizing: border-box;
+    text-align: center; */
 }
 #usertitle{
     box-sizing: border-box;
@@ -21,42 +40,30 @@
 }
 .level{
     box-sizing: border-box;
-    width:94px;
+    position: relative;
+    width:88px;
     height: 41px;
     font-size: 17px;
-    position: absolute;
-    left: 63px;
+    /* left: 63px; */
     background-color: transparent;
     color: rgb(37, 92, 143);
     border-radius: 17px;
     border-color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-/* #rules{
-    position: absolute;
-    left: 585px;
-    top: 314px;
-    width: 180px;
-    background-color: rgb(30, 22, 44);
-    border-radius: 2px;
-    color: white;
-    border-color: transparent;
-} */
-body{
-    background-image:url(sudoku-background.jpeg) ;
-    background-repeat: no-repeat;
-    }
-#nameOfPage{
-    font-size: 50px;
-    color: white;
-    letter-spacing: -2px;
-    font-style: oblique;
+#push1{
+    right:7px;
 }
+#push3{
+   left:7px; 
+ }
+
 #rulesbutton{
-    position: absolute;
-    left: 603px;
+    position: relative;
+    box-sizing: border-box;
+    margin-left:65px; 
+    top: 30px;
     width: 150px;
-    top: 287px;
     background-color: rgb(29, 21, 66);
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -93,3 +100,69 @@ margin-bottom: auto;
 width: 400px;
 background-color: rgba(0,0,0,0.5) !important;
 } */
+
+ 
+  /* Small devices (portrait tablets ) */
+   @media only screen and (width: 768px) {
+    #welacom{
+        float: left;
+    }
+    #nameOfPage{
+        float: left;
+        font-size:35px;
+     }
+    .button{
+        float:left;
+    }
+    #push1{
+       right: 60px;
+    }
+    #push2{
+       right:26px; 
+   }
+   #push3{
+     right: 30px;
+   }
+    #rulesbutton{
+        float: left;
+    }
+ } 
+
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    #welacom{
+        float: left;
+        font-size:30px;
+    }
+    #usertitle{
+        font-size:35px;
+    }
+    #nameOfPage{
+        float: left;
+        font-size:20px;
+     }
+     .button{
+         float: left;
+     }
+     #push1{
+       right: 102px;
+     }
+      #push2{
+      right: 47px;
+    } 
+    #push3{
+       left:9px; 
+    }
+    #rulesbutton{
+        float: left;
+    }
+ } 
+
+  
+  
+
+  
+  
+
+   
