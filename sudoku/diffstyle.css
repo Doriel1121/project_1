@@ -1,7 +1,14 @@
 
-#main{
+/* #main{
     height: 100px;
-}
+} */
+body{
+    background-image:url(sudoku-background.jpeg) ;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain; 
+    height: 750px;
+    }
 #welcomediv{
     box-sizing: border-box;
     text-align: center;
@@ -9,14 +16,15 @@
     letter-spacing: -6px;
 }
 #welcome{
+    box-sizing: border-box;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #definition{
      box-sizing: border-box;
-    text-align: center; 
 }
 #nameOfPage{
+    box-sizing: border-box;
     font-size: 50px;
     color: black;
     letter-spacing: -2px;
@@ -32,29 +40,30 @@
 }
 .level{
     box-sizing: border-box;
-    width:94px;
+    position: relative;
+    width:88px;
     height: 41px;
     font-size: 17px;
-    position: absolute;
-    left: 63px;
+    /* left: 63px; */
     background-color: transparent;
     color: rgb(37, 92, 143);
     border-radius: 17px;
     border-color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-body{
-    background-image:url(sudoku-background.jpeg) ;
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: contain; 
-    height: 1500px;
-    }
+#push1{
+    right:7px;
+}
+#push3{
+   left:7px; 
+ }
+
 #rulesbutton{
-    position:relative;
-    left: 570px;
+    /* position: relative; */
+    box-sizing: border-box;
+    margin-left:65px; 
+    top: 30px;
     width: 150px;
-    /* top: 350px; */
     background-color: rgb(29, 21, 66);
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -91,3 +100,105 @@ margin-bottom: auto;
 width: 400px;
 background-color: rgba(0,0,0,0.5) !important;
 } */
+
+ 
+  /* Small devices (portrait tablets ) */
+   @media only screen and (width: 768px) {
+    #welacom{
+        float: left;
+    }
+    #nameOfPage{
+        float: left;
+        font-size:35px;
+     }
+    .button{
+        float:left;
+    }
+    #push1{
+       right: 50px;
+    }
+    #push2{
+      right:20px;
+   }
+   #push3{
+     right: 30px;
+   }
+    #rulesbutton{
+        float: left;
+    }
+ } 
+
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    #welacom{
+        float: left;
+        font-size:30px;
+    }
+    #usertitle{
+        font-size:35px;
+        
+    }
+    #nameOfPage{
+        float: left;
+        font-size:20px;
+     }
+     .button{
+         float: left;
+     }
+     #push1{
+       right: 60px;
+     }
+     #push2{
+       
+    }
+    #push3{
+      left: 60px;
+    }
+    #rulesbutton{
+        float: left;
+    }
+ } 
+
+  
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  /* @media only screen and (min-width: 768px) {
+    #welacom{
+        float: left;
+    }
+    #nameOfPage{
+        float: left;
+     }
+     #push1{
+        float: left;
+     }
+     #push2{
+        float: left;
+    }
+    #push3{
+        float: left;
+    }
+    #rulesbutton{
+        float: left;
+    }
+ } */
+  
+  
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+    #welacom{
+        float: left;
+    }
+    #nameOfPage{
+         float: left; 
+     }
+    .button{
+        float: left;
+    }
+    #rulesbutton{
+        float: left;
+    }
+ } */
+
+   
