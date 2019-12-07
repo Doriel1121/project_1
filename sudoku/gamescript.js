@@ -92,12 +92,12 @@ let mat = [
     console.log(counter);
     
     if (counter == 81) {
-       alert('champ!');
+    //    alert('champ!');
         // location.assign("answer.html?correct");
 
         // document.table.
     } else {
-        alert('Give it another try');
+        // alert('Give it another try');
         // location.assign("answer.html?wrong");
 
     }

@@ -18,19 +18,20 @@ td:nth-child(3n){
     border-right-color: black;
 }
 .col-2{
-    position: absolute;
-    top: -189px;
+    position: relative;
+    top: -162px;
     right: -440px;
-    background: transparent;
+    background-color: rgb(29, 21, 66);
     border-radius: 4px;
     border-color: black;
-    color: rgb(17, 56, 51);
+    color: white;
     margin: -4px;
     width: 50px;
     height: 40px;
     font-size: x-large;
-    
+    margin-bottom: 15px;
 }
+
  body{
     background-image: url(sudoku-background.jpeg);
     background-repeat: no-repeat;
@@ -44,8 +45,8 @@ td:nth-child(3n){
 }
 #sdk_div{
     box-sizing: border-box;
-    position: absolute;
-    top: 200px;
+    position: relative;
+    top: 18px;
     left: 500px;
     
 }
