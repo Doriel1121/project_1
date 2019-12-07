@@ -115,10 +115,10 @@ background-color: rgba(0,0,0,0.5) !important;
         float:left;
     }
     #push1{
-       right: 50px;
+       right: 60px;
     }
     #push2{
-      right:20px;
+       right:26px; 
    }
    #push3{
      right: 30px;
@@ -146,13 +146,13 @@ background-color: rgba(0,0,0,0.5) !important;
          float: left;
      }
      #push1{
-       right: 60px;
+       right: 102px;
      }
-     /* #push2{
-       
-    } */
+      #push2{
+      right: 47px;
+    } 
     #push3{
-      left: 60px;
+       left:9px; 
     }
     #rulesbutton{
         float: left;
