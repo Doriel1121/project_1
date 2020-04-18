@@ -1,12 +1,9 @@
 body{
     background-image: url(sudoku-background.jpeg);
+    background-size: 100%;
     background-repeat: no-repeat;
-    /* width: 100%;
-    background-size: contain; 
-    height: 100%; */
 }
 .cell{
-    /* box-sizing: border-box; */
     width: 40px;
     height:40px;
     text-align: center;
@@ -30,36 +27,19 @@ td:nth-child(3n){
     border-right-width: 5px;
 
 }
-.col-2{
+.gameButton{
     position: flex;
-    top: -189px;
-    right: -440px; 
     background:transparent;
     border-radius: 4px;
     border-color: black;
     color: rgb(17, 56, 51);
      margin: -4px;
     height: 40px; 
-    font-size: x-large;
-    margin-bottom: 15px;
-}
-#validata{
+    font-size:large;
     background: rgb(29, 21, 66);
     color:white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-#oneMore{
-    background: rgb(29, 21, 66);
-    color:white;
-    margin-top: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-#backword{
-    background: rgb(29, 21, 66);
-    color:white;
-    margin-top: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+
 #head-of-page{
     box-sizing: border-box;
     text-align: center;
@@ -71,15 +51,13 @@ td:nth-child(3n){
     box-sizing: border-box;
     position: relative;
     top: 18px;
-    left: 500px;
-    
+    left: 50px;
 }
  td , tr{ 
      width: 40px;
     height:40px; 
     font-size: larger;
     text-align: center;
-    /* box-sizing: border-box; */
     border: 2px groove  rgb(0, 0, 0); 
 }
 input{

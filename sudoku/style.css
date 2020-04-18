@@ -1,8 +1,8 @@
 body{
     background-image: url("http://www.yo-yoo.co.il/rekaim/images/uploads/f9ef48.jpg");
-    background-repeat: no-repeat;
-    width: 150%;
-    width: 150%;
+    background-size: 100%;
+    width: 100%;
+    width: 100%;
     background-size: contain; 
 }
 .header{
@@ -62,11 +62,6 @@ body{
     height: 47px;
     position: relative;
      right: 50px; 
-    /* border:none; */
-    
-    
-
-    
 }
 #black-line{
      box-sizing: border-box; 
@@ -74,17 +69,8 @@ body{
      height: 150px;
      position: flex;
       left:100px;  
-    
-
 }
-/* .input_icons{
-    position: absolute; */
-/* } */
-  /* .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }   */
+
   
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -139,14 +125,10 @@ body{
   @media only screen and (min-width: 768px) {
     #login_user{
         float: left;      
-       /* position: flex; */
-       margin-right: 70px;
-       
+       margin-right: 70px; 
     }
     #login_pass{
         float: left;   
-        /* position: flex; */
-       
     }
     #black-line{
         float: left; 
@@ -167,8 +149,6 @@ body{
 @media only screen and (min-width: 992px) {
     #login_user{
         float: left; 
-       /* position: flex; */
-       
     }
     #login_pass{
         float: left;
